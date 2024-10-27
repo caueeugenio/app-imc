@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true, // Habilita todas as verificações estritas
+    "noImplicitAny": true, // Garante que todas as variáveis tenham tipos explícitos
+    "baseUrl": ".", // Define a base URL para resolver módulos
+    "paths": {
+      "@components/*": ["src/components/*"], // Exemplo de alias para resolver módulos
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
